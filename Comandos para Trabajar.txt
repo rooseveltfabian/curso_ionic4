@@ -1,0 +1,74 @@
+++++++++++++++++++++++++  Instalar  +++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+https://nodejs.org/es/                    //instalar nodejs
+node -v                                   //ver que node este instalado
+sudo npm install -g typescript            //instalar typescript
+sudo npm install -g @angular/cli          //instalar Angular
+https://www.getpostman.com/downloads/     //instalar postman
+npm install -g ionic cordova              //instalar ionic y cordova
+https://developer.android.com/studio      //instalar android studio 
+https://developer.android.com/studio      //descargar sdk tools package(para ejecutar java)
+"xcode"  en Mac store                     //para desplegar en la app store, simuladores etc
+
+
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+
+
+
+
++++++++++  Extensiones de Visual Studio Code   ++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1.  .jshintrc Generator
+2.  AB HTML Formatter
+3.  Angular 7 Snippets
+4.  Angular Language Service
+5.  Angular2-inline
+6.  Auto Close Tag
+7.  Bootstrap 4, Font Awesome 4
+8.  Gist Extension
+9.  HTML CSS Support
+10.  Ionic 4 snippets
+11. JavaScript ( ES6 ) code snippets
+12. jshint
+13. JSON to TS
+14. Material Icon Theme
+15. MySQL-inline-decorator
+16. Prettier - Code formatter
+17. PWA Tools
+18. Terminal
+19. TSLint
+20. TypeScript Importer
+----------------------------------------------------
+----------------------------------------------------
+
++++++++++++++++++ Comandos Ionic4 ++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++
+ionic start nombre_proyecto blank     //crea un proyecto nuevo ionic. reemplaza blank por sidemenu,tabs
+ionic serve                           //corre ionic con un servidor http
+ionic serve --lab                     //corre el servidor con multiples paltaformas al tiempo (puede pedir instalar otra herramienta)
+
+----------------------------------------------------
+----------------------------------------------------
+
+
+
+
+++++++++++++++++++ Comandos Angular +++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ng new angularbases              //crear nueva aplicacion Angular
+ng serve -o                      //ejecuta el proyecto y abre el navegados web
+ng g c pages/about --dry-run     //hacer una prueba de una creacion de un componente o pagina
+ng g c pages/about        //crea un componente 'about' o pagina en un acarpeta nueva 'pages'
+-----------------------------------------------------
+-----------------------------------------------------
+
+++++++++++++++++++++ Bootstrap ++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  // para empezar a usar bootstrap, se inserta en el html de primero que todas la hojas de estilo
+    
+-------------------------------------------------------
+-------------------------------------------------------
