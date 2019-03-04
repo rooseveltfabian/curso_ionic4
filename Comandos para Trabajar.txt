@@ -61,7 +61,8 @@ ionic serve --lab                     //corre el servidor con multiples paltafor
 ng new angularbases              //crear nueva aplicacion Angular
 ng serve -o                      //ejecuta el proyecto y abre el navegados web
 ng g c pages/about --dry-run     //hacer una prueba de una creacion de un componente o pagina
-ng g c pages/about        //crea un componente 'about' o pagina en un acarpeta nueva 'pages'
+ng g c pages/about               //crea un componente 'about' o pagina en un acarpeta nueva 'pages'
+ng g m appRouting --flat         //crea un modulo manejador de rutas
 -----------------------------------------------------
 -----------------------------------------------------
 
