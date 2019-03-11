@@ -63,6 +63,14 @@ ng serve -o                      //ejecuta el proyecto y abre el navegados web
 ng g c pages/about --dry-run     //hacer una prueba de una creacion de un componente o pagina
 ng g c pages/about               //crea un componente 'about' o pagina en un acarpeta nueva 'pages'
 ng g m appRouting --flat         //crea un modulo manejador de rutas
+
+lazyloader:
+ng g m pages/posts --routing  //crea un modulo con routers
+ng g c pages/posts  //crea una pagina en la carpeta posts
+
+ng g s services/data --spec=false //crear un servicio, --spec=false para no incluir el archivo de prueba
+
+
 -----------------------------------------------------
 -----------------------------------------------------
 
